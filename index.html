@@ -1,31 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4D96A9">
+
+  <title>Meet landing page</title>
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
+  <link rel="apple-touch-icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
 
-  Download v1.3
-  What is it?
+<body class="page">
 
-  01
-  Built for modern use
+  <header class="header">
+    <a href="index.html">
+      <img src="./assets/images/logo.svg" alt="Meet">
+    </a>
+  </header>
 
-  Smarter meetings, all in one place
+  <main>
+    <section class="hero">
+      <div class="hero__media">
+        <img src="./assets/images/hero/hero-compact.png" alt="" class="hero__img hero__img--compact">
+        <img src="./assets/images/hero/hero-left.png" alt="" class="hero__img hero__img--left">
+        <img src="./assets/images/hero/hero-right.png" alt="" class="hero__img hero__img--right">
+      </div>
 
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
+      <div class="hero__content">
+        <h1 class="hero__title">Group Chat for Everyone</h1>
+        <p class="hero__description">Meet makes it easy to connect with others face-to-face virtually and collaborate
+          across any device.</p>
 
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+        <div class="hero__actions">
+          <a href="#" class="btn btn--primary">Download <span>v1.3</span></a>
+          <a href="#gallery" class="btn btn--secondary">What is it?</a>
+        </div>
+      </div>
+    </section>
 
-  Download v1.3
+    <div class="step-indicator" aria-hidden="true">
+      <span class="step-indicator__number">01</span>
+    </div>
+
+    <section id="gallery" class="gallery">
+      <div class="gallery__content">
+        <p class="gallery__eyebrow">Built for modern use</p>
+        <h2 class="gallery__title">Smarter meetings, all in one place</h2>
+        <p class="gallery__description">Send messages, share files, show your screen, and record your meetings — all in
+          one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+      </div>
+
+      <ul class="gallery__list">
+        <li class="gallery__item">
+          <img src="./assets/images/gallery/woman-in-videocall.jpg" alt="Woman video chatting on laptop">
+        </li>
+        <li class="gallery__item">
+          <img src="./assets/images/gallery/women-videochatting.jpg" alt="Three women looking at a smartphone">
+        </li>
+        <li class="gallery__item">
+          <img src="./assets/images/gallery/men-in-meeting.jpg" alt="Man participating in a video call on desktop">
+        </li>
+        <li class="gallery__item">
+          <img src="./assets/images/gallery/man-texting.jpg" alt="Man smiling while texting on his phone">
+        </li>
+      </ul>
+    </section>
+
+    <div class="step-indicator" aria-hidden="true">
+      <span class="step-indicator__number">02</span>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <section class="footer__cta">
+      <h2 class="footer__title">Experience more together</h2>
+      <p class="footer__description">Stay connected with reliable HD meetings and unlimited one-on-one and group video
+        sessions.</p>
+      <a href="#" class="btn btn--primary">Download <span>v1.3</span></a>
+    </section>
+
+    <small class="footer__attribution">Challenge by <a href="https://www.frontendmentor.io/challenges" target="_blank"
+        rel="noopener noreferrer">Frontend
+        Mentor</a> &ndash; Coded by <a href="https://www.frontendmentor.io/profile/vimpdev" target="_blank"
+        rel="noopener noreferrer">VIMP</a></small>
+  </footer>
 </body>
+
 </html>
