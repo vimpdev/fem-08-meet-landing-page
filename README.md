@@ -47,7 +47,7 @@ Users should be able to:
 
 - 🌎 [Live site](https://vimpdev.github.io/fem-08-meet-landing-page/)
 
-<!-- - 🧑‍💻 [View solution on Frontend Mentor](https://your-solution-url.com) -->
+- 🧑‍💻 [View solution on Frontend Mentor](https://www.frontendmentor.io/solutions/meet-landing-page-mobile-first-and-accessible-OdzYrzERJn)
 
 ---
 
